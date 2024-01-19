@@ -8,6 +8,8 @@ class Program
         Journal journal = new Journal();
         DateTime dateTime = DateTime.Now;
 
+        string date = dateTime.ToShortDateString();
+
         int journalNumber = 0;
         List<string> prompts = new List<string>{};
 
@@ -22,7 +24,7 @@ class Program
                 entry.Display(prompts);
             }else if(journalNumber == 3)
             {
-                journal.Save(entry.entries, dateTime.ToShortDateString(), prompts);
+                journal.Save(entry.entries, date, prompts);
             }else if(journalNumber == 4)
             {
                 journal.Load();
