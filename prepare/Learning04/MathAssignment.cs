@@ -12,6 +12,6 @@ public class MathAssignment : Assignment
 
     public string GetHoeworkList()
     {
-        return $"Section {_textbookSection}: {_problems}";
+        return $"Section {_textbookSection}: Problems {_problems}";
     }
 }
