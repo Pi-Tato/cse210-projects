@@ -4,19 +4,6 @@ class Program
 {
     static void Main(string[] args)
     {
-        //List<string> names = new List<string>
-        //{
-        //    "Breathing Activity",
-        //    "Listing Activity",
-        //    "Reflecting Activity"
-        //};
-        //List<string> discriptions = new List<string>
-        //{
-        //    "",
-        //    "",
-        //    ""
-        //};
-
         BreathingActivity breathingActivity = new BreathingActivity();
         ListingActivity listingActivity = new ListingActivity();
         ReflectingActivity reflectingActivity = new ReflectingActivity();
