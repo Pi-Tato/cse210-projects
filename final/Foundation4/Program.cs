@@ -5,7 +5,6 @@ class Program
     static void Main(string[] args)
     {
         List<Activity> activities = new List<Activity>();
-
         Running running = new Running(20, 10, 5);
         activities.Add(running);
 
