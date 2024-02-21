@@ -21,7 +21,7 @@ public class Video
     
     
     
-    public void Display()
+    public void DisplayInfo()
     {
         Console.WriteLine($"Title: {_title}");
         Console.WriteLine($"Author: {_author}");

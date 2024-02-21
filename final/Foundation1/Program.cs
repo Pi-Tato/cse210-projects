@@ -14,7 +14,7 @@ class Program
         Console.Clear();
         foreach (Video video in videos)
         {
-            video.Display();
+            video.DisplayInfo();
             Console.WriteLine("");
         }
     }
